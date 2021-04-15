@@ -1,14 +1,17 @@
 import React, { useState } from 'react';
-import './App.scss';
+import './app.scss';
 
+//API pobrane ze strony
 const api = {
-  key: "ea2279f51a0bc11051a8132df85d8371",
+  key: "1888de5ce7f3f7ad61a0165ebc58fab7",
   base: "https://api.openweathermap.org/data/2.5/"
 }
 
-function App() {
 
+function App() {
+  //zapytanie bedzie stringiem
   const [query, setQuery] = useState('');
+  //pogoda obiektem
   const [weather, setWeather] = useState({});
 
   const search = evt => {
@@ -22,22 +25,27 @@ function App() {
     }
   }
 
+ //To co mysle ze sie tutaj dzieje to:
+ //w funckji odpowiedzialnej za pobranie i zwrocenie stringa z AKTUALNA data.
   const dateBuilder = (d) => {
+    //Tworzymy zmienne. Tablice z miesiacami i dniami tygodnia.
     let months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
     let days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
+    //Dzien i miesiac beda pobierane z tablic metodami date
     let day = days[d.getDay()];
-    let date = d.getDate();
     let month = months[d.getMonth()];
+    //data i rok z argumentu funckji
+    let date = d.getDate();
     let year = d.getFullYear();
-
+    //zwracamy string z data
     return `${day} ${date} ${month} ${year}`
   }
 
+  //Struktura mojego dokumentu
   return (
-    <div className={
-      (typeof weather.main != "undefined")
-      ? ((weather.main.temp > 16) ? 'app warm' : 'app')
-      : 'app'}>
+    //ClassName calej aplikacji jest zalezny od wysokosci temperatury.
+    //Od wysokosci temperatury zalezy tez background img
+    <div className={(typeof weather.main != "undefined") ? ((weather.main.temp > 16) ? 'app warm' : 'app') : 'app'}>
       <main>
         <div className="search-box">
           <input
