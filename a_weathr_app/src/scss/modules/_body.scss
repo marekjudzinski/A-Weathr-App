@@ -1,45 +1,38 @@
-@media (max-width:600px){
-    body{
-      font-family: 'montserratt', sans-serif;
- 
+body{
+  font-family: $font-main;
+
+  main{
+    min-height: 100vh;
+    background-image: linear-gradient(to top, rgba(0,0,0,0.4),rgba(0,0,0,0.80));
+    padding: 25px;
+    }
+
+  .app{
+    background-size: cover;
+    background-position: center;
+    transition: 0.4s ease-out;
+  }
+}
+
+
+@media (max-width:500px){
     .app{
       background-image: url('../../images/rain.jpg');
-      background-size: cover;
-      background-position: center;
-      transition: 0.4s ease-out;
     }
   
     .warm{
       background-image: url('../../images/sun_3.jpg');
     }
   
-    main{
-    min-height: 100vh;
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.5),rgba(0,0,0,0.75));
-    padding: 25px;
-    }
   }
-}
 
-@media (min-width:601px){
-  body{
-    font-family: 'montserratt', sans-serif;
+@media (min-width:501px){
  
   .app{
     background-image: url('../../images/rain_pc.jpg');
-    background-size: cover;
-    background-position: center;
-    transition: 0.4s ease-out;
   }
   
   .warm{
     background-image: url('../../images/sun_pc_2.jpg');
   }
-  
-  main{
-  min-height: 100vh;
-  background-image: linear-gradient(to bottom, rgba(0,0,0,0.5),rgba(0,0,0,0.75));
-  padding: 25px;
-  }
-}
 }

@@ -1,0 +1,553 @@
+(this["webpackJsonpa_weathr_app"] = this["webpackJsonpa_weathr_app"] || []).push([["main"],{
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/resolve-url-loader/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/app.scss":
+/*!**************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-6-1!./node_modules/postcss-loader/src??postcss!./node_modules/resolve-url-loader??ref--5-oneOf-6-3!./node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-6-4!./src/app.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _images_rain_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./images/rain.jpg */ "./src/images/rain.jpg");
+/* harmony import */ var _images_sun_3_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./images/sun_3.jpg */ "./src/images/sun_3.jpg");
+/* harmony import */ var _images_rain_pc_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./images/rain_pc.jpg */ "./src/images/rain_pc.jpg");
+/* harmony import */ var _images_sun_pc_2_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./images/sun_pc_2.jpg */ "./src/images/sun_pc_2.jpg");
+// Imports
+
+
+
+
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(true);
+var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_images_rain_jpg__WEBPACK_IMPORTED_MODULE_2__["default"]);
+var ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_images_sun_3_jpg__WEBPACK_IMPORTED_MODULE_3__["default"]);
+var ___CSS_LOADER_URL_REPLACEMENT_2___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_images_rain_pc_jpg__WEBPACK_IMPORTED_MODULE_4__["default"]);
+var ___CSS_LOADER_URL_REPLACEMENT_3___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_images_sun_pc_2_jpg__WEBPACK_IMPORTED_MODULE_5__["default"]);
+// Module
+___CSS_LOADER_EXPORT___.push([module.i, "@media (max-width: 500px) {\n  body {\n    font-family: 'montserratt', sans-serif; }\n    body .app {\n      background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n      background-size: cover;\n      background-position: center;\n      transition: 0.4s ease-out; }\n    body .warm {\n      background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + "); }\n    body main {\n      min-height: 100vh;\n      background-image: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8));\n      padding: 25px; } }\n\n@media (min-width: 501px) {\n  body {\n    font-family: 'montserratt', sans-serif; }\n    body .app {\n      background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + ");\n      background-size: cover;\n      background-position: center;\n      transition: 0.4s ease-out; }\n    body .warm {\n      background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_3___ + "); }\n    body main {\n      min-height: 100vh;\n      background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8));\n      padding: 25px; } }\n\n.location-box .location {\n  color: #FFF;\n  font-size: 32px;\n  text-align: center;\n  text-shadow: 3px 3px rgba(50, 50, 70, 0.5); }\n\n.location-box .date {\n  color: #FFF;\n  font-size: 20px;\n  font-weight: 300;\n  font-style: italic;\n  text-align: center;\n  text-shadow: 2px 2px rgba(50, 50, 50, 0.5); }\n\n.search-box {\n  width: 50%;\n  margin: 0 0 75px; }\n  .search-box .search-bar {\n    display: block;\n    width: 100%;\n    padding: 15px;\n    -webkit-appearance: none;\n            appearance: none;\n    background: none;\n    border: none;\n    outline: none;\n    background-color: rgba(255, 255, 255, 0.5);\n    border-radius: 15px;\n    color: #313131;\n    font-size: 20px;\n    transition: 0.4s ease; }\n    .search-box .search-bar:focus {\n      background-color: rgba(255, 255, 255, 0.75); }\n\n.weather-box {\n  text-align: center; }\n  .weather-box .temp {\n    position: relative;\n    display: inline-block;\n    margin: 30px auto;\n    background-color: rgba(255, 255, 255, 0.2);\n    border-radius: 16px;\n    padding: 15px 20px;\n    color: #FFF;\n    font-size: 102px;\n    font-weight: 900;\n    text-shadow: 3px 6px rgba(50, 50, 70, 0.5);\n    text-align: center;\n    box-shadow: 3px 6px rgba(0, 0, 0, 0.2); }\n  .weather-box .weather {\n    color: #FFF;\n    font-size: 40px;\n    font-weight: 700;\n    text-shadow: 3px 3px rgba(50, 50, 50, 0.5); }\n\n* {\n  box-sizing: border-box;\n  margin: 0;\n  padding: 0; }\n", "",{"version":3,"sources":["webpack://src/scss/modules/_body.scss","webpack://src/scss/modules/_location-box.scss","webpack://src/scss/modules/_search-bar.scss","webpack://src/scss/modules/_weather-box.scss","webpack://src/scss/reset/_reset.scss"],"names":[],"mappings":"AAAA;EACI;IACE,sCAAsC,EAAA;IADxC;MAIE,yDAA8C;MAC9C,sBAAsB;MACtB,2BAA2B;MAC3B,yBAAyB,EAAA;IAP3B;MAWE,yDAA+C,EAAA;IAXjD;MAeA,iBAAiB;MACjB,iFAA2E;MAC3E,aAAa,EAAA,EACZ;;AAIL;EACE;IACE,sCAAsC,EAAA;IADxC;MAIE,yDAAiD;MACjD,sBAAsB;MACtB,2BAA2B;MAC3B,yBAAyB,EAAA;IAP3B;MAWE,yDAAkD,EAAA;IAXpD;MAeA,iBAAiB;MACjB,oFAA8E;MAC9E,aAAa,EAAA,EACZ;;AC1CH;EAGM,WAAW;EACX,eAAe;EACf,kBAAkB;EAClB,0CAAuC,EAAA;;AAN7C;EAUM,WAAW;EACX,eAAe;EACf,gBAAgB;EAChB,kBAAkB;EAClB,kBAAkB;EAClB,0CAAuC,EAAA;;ACf7C;EAEI,UAAU;EACV,gBAAgB,EAAA;EAHpB;IAMM,cAAc;IACd,WAAW;IACX,aAAa;IACb,wBAAgB;YAAhB,gBAAgB;IAChB,gBAAgB;IAChB,YAAY;IACZ,aAAa;IACb,0CAAuC;IACvC,mBAAmB;IAEnB,cAAc;IACd,eAAe;IACf,qBAAqB,EAAA;IAlB3B;MAqBQ,2CAAwC,EAAA;;ACrBhD;EACI,kBAAkB,EAAA;EADtB;IAIM,kBAAkB;IAClB,qBAAqB;IACrB,iBAAiB;IACjB,0CAAwC;IACxC,mBAAmB;IACnB,kBAAkB;IAClB,WAAW;IACX,gBAAgB;IAChB,gBAAgB;IAChB,0CAAuC;IACvC,kBAAkB;IAClB,sCAAmC,EAAA;EAfzC;IAmBM,WAAW;IACX,eAAe;IACf,gBAAgB;IAChB,0CAAuC,EAAA;;ACtB7C;EACI,sBAAsB;EACtB,SAAS;EACT,UAAU,EAAA","sourcesContent":["@media (max-width:500px){\r\n    body{\r\n      font-family: 'montserratt', sans-serif;\r\n \r\n    .app{\r\n      background-image: url('../../images/rain.jpg');\r\n      background-size: cover;\r\n      background-position: center;\r\n      transition: 0.4s ease-out;\r\n    }\r\n  \r\n    .warm{\r\n      background-image: url('../../images/sun_3.jpg');\r\n    }\r\n  \r\n    main{\r\n    min-height: 100vh;\r\n    background-image: linear-gradient(to top, rgba(0,0,0,0.4),rgba(0,0,0,0.80));\r\n    padding: 25px;\r\n    }\r\n  }\r\n}\r\n\r\n@media (min-width:501px){\r\n  body{\r\n    font-family: 'montserratt', sans-serif;\r\n \r\n  .app{\r\n    background-image: url('../../images/rain_pc.jpg');\r\n    background-size: cover;\r\n    background-position: center;\r\n    transition: 0.4s ease-out;\r\n  }\r\n  \r\n  .warm{\r\n    background-image: url('../../images/sun_pc_2.jpg');\r\n  }\r\n  \r\n  main{\r\n  min-height: 100vh;\r\n  background-image: linear-gradient(to bottom, rgba(0,0,0,0.4),rgba(0,0,0,0.80));\r\n  padding: 25px;\r\n  }\r\n}\r\n}",".location-box{\r\n\r\n    .location{\r\n      color: #FFF;\r\n      font-size: 32px;\r\n      text-align: center;\r\n      text-shadow: 3px 3px rgba(50,50,70,0.5);\r\n    }\r\n  \r\n    .date{\r\n      color: #FFF;\r\n      font-size: 20px;\r\n      font-weight: 300;\r\n      font-style: italic;\r\n      text-align: center;\r\n      text-shadow: 2px 2px rgba(50,50,50,0.5);\r\n    }\r\n}",".search-box{\r\n    \r\n    width: 50%;\r\n    margin: 0 0 75px;\r\n  \r\n    .search-bar{\r\n      display: block;\r\n      width: 100%;\r\n      padding: 15px;\r\n      appearance: none;\r\n      background: none;\r\n      border: none;\r\n      outline: none;\r\n      background-color: rgba(255,255,255,0.5);\r\n      border-radius: 15px;\r\n      // box-shadow: 0 0 16px 2px #313131;\r\n      color: #313131;\r\n      font-size: 20px;\r\n      transition: 0.4s ease;\r\n  \r\n      &:focus{\r\n        background-color: rgba(255,255,255,0.75);\r\n      }\r\n    }\r\n  }\r\n  ",".weather-box{\r\n    text-align: center;\r\n  \r\n    .temp{\r\n      position: relative;\r\n      display: inline-block;\r\n      margin: 30px auto;\r\n      background-color: rgba(255,255,255, 0.2);\r\n      border-radius: 16px;\r\n      padding: 15px 20px;\r\n      color: #FFF;\r\n      font-size: 102px;\r\n      font-weight: 900;\r\n      text-shadow: 3px 6px rgba(50,50,70,0.5);\r\n      text-align: center;\r\n      box-shadow: 3px 6px rgba(0,0,0,0.2);\r\n    }\r\n  \r\n    .weather{\r\n      color: #FFF;\r\n      font-size: 40px;\r\n      font-weight: 700;\r\n      text-shadow: 3px 3px rgba(50,50,50,0.5);\r\n    }\r\n}","*{\r\n    box-sizing: border-box;\r\n    margin: 0;\r\n    padding: 0;\r\n}\r\n"],"sourceRoot":""}]);
+// Exports
+/* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./src/App.js":
+/*!********************!*\
+  !*** ./src/App.js ***!
+  \********************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _app_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./app.scss */ "./src/app.scss");
+/* harmony import */ var _app_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_app_scss__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__);
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
+__webpack_require__.$Refresh$.setup(module.i);
+
+var _jsxFileName = "C:\\Users\\PC\\Desktop\\thingS\\A-Weathr-App\\a_weathr_app\\src\\App.js",
+    _s = __webpack_require__.$Refresh$.signature();
+
+
+ //API pobrane ze strony
+
+
+const api = {
+  key: "1888de5ce7f3f7ad61a0165ebc58fab7",
+  base: "https://api.openweathermap.org/data/2.5/"
+};
+
+function App() {
+  _s();
+
+  //zapytanie bedzie stringiem
+  const [query, setQuery] = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(''); //pogoda obiektem
+
+  const [weather, setWeather] = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])({});
+
+  const search = evt => {
+    if (evt.key === "Enter") {
+      fetch(`${api.base}weather?q=${query}&units=metric&APPID=${api.key}`).then(res => res.json()).then(result => {
+        setWeather(result);
+        setQuery('');
+      });
+    }
+  }; //To co mysle ze sie tutaj dzieje to:
+  //w funckji odpowiedzialnej za pobranie i zwrocenie stringa z AKTUALNA data.
+
+
+  const dateBuilder = d => {
+    //Tworzymy zmienne. Tablice z miesiacami i dniami tygodnia.
+    let months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+    let days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]; //Dzien i miesiac beda pobierane z tablic metodami date
+
+    let day = days[d.getDay()];
+    let month = months[d.getMonth()]; //data i rok z argumentu funckji
+
+    let date = d.getDate();
+    let year = d.getFullYear(); //zwracamy string z data
+
+    return `${day} ${date} ${month} ${year}`;
+  }; //Struktura mojego dokumentu
+
+
+  return (
+    /*#__PURE__*/
+    //ClassName calej aplikacji jest zalezny od wysokosci temperatury (weather.main.temp).
+    //Od wysokosci temperatury zalezy tez background img('app' 'warm')
+    Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+      className: typeof weather.main != "undefined" ? weather.main.temp > 16 ? 'app warm' : 'app' : 'app',
+      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("main", {
+        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+          className: "search-box",
+          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("input", {
+            type: "text",
+            className: "search-bar",
+            placeholder: "Search...",
+            onChange: e => setQuery(e.target.value),
+            value: query,
+            onKeyPress: search
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 51,
+            columnNumber: 11
+          }, this)
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 50,
+          columnNumber: 9
+        }, this), typeof weather.main != "undefined" ? /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+          children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+            className: "location-box",
+            children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+              className: "location",
+              children: [weather.name, ", ", weather.sys.country]
+            }, void 0, true, {
+              fileName: _jsxFileName,
+              lineNumber: 63,
+              columnNumber: 15
+            }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+              className: "date",
+              children: dateBuilder(new Date())
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 64,
+              columnNumber: 15
+            }, this)]
+          }, void 0, true, {
+            fileName: _jsxFileName,
+            lineNumber: 62,
+            columnNumber: 13
+          }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+            className: "weather-box",
+            children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+              className: "temp",
+              children: [Math.round(weather.main.temp), "\xB0C"]
+            }, void 0, true, {
+              fileName: _jsxFileName,
+              lineNumber: 67,
+              columnNumber: 15
+            }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+              className: "weather",
+              children: weather.weather[0].main
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 70,
+              columnNumber: 13
+            }, this)]
+          }, void 0, true, {
+            fileName: _jsxFileName,
+            lineNumber: 66,
+            columnNumber: 13
+          }, this)]
+        }, void 0, true, {
+          fileName: _jsxFileName,
+          lineNumber: 61,
+          columnNumber: 11
+        }, this) : '']
+      }, void 0, true, {
+        fileName: _jsxFileName,
+        lineNumber: 49,
+        columnNumber: 7
+      }, this)
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 5
+    }, this)
+  );
+}
+
+_s(App, "WfIlIcXSxCUve4W/aFy4QSWUDkM=");
+
+_c = App;
+/* harmony default export */ __webpack_exports__["default"] = (App);
+
+var _c;
+
+__webpack_require__.$Refresh$.register(_c, "App");
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ }),
+
+/***/ "./src/app.scss":
+/*!**********************!*\
+  !*** ./src/app.scss ***!
+  \**********************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-6-1!../node_modules/postcss-loader/src??postcss!../node_modules/resolve-url-loader??ref--5-oneOf-6-3!../node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-6-4!./app.scss */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/resolve-url-loader/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/app.scss");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+if (true) {
+  if (!content.locals || module.hot.invalidate) {
+    var isEqualLocals = function isEqualLocals(a, b, isNamedExport) {
+  if (!a && b || a && !b) {
+    return false;
+  }
+
+  var p;
+
+  for (p in a) {
+    if (isNamedExport && p === 'default') {
+      // eslint-disable-next-line no-continue
+      continue;
+    }
+
+    if (a[p] !== b[p]) {
+      return false;
+    }
+  }
+
+  for (p in b) {
+    if (isNamedExport && p === 'default') {
+      // eslint-disable-next-line no-continue
+      continue;
+    }
+
+    if (!a[p]) {
+      return false;
+    }
+  }
+
+  return true;
+};
+    var oldLocals = content.locals;
+
+    module.hot.accept(
+      /*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-6-1!../node_modules/postcss-loader/src??postcss!../node_modules/resolve-url-loader??ref--5-oneOf-6-3!../node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-6-4!./app.scss */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/resolve-url-loader/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/app.scss",
+      function () {
+        content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-6-1!../node_modules/postcss-loader/src??postcss!../node_modules/resolve-url-loader??ref--5-oneOf-6-3!../node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-6-4!./app.scss */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/resolve-url-loader/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/app.scss");
+
+              content = content.__esModule ? content.default : content;
+
+              if (typeof content === 'string') {
+                content = [[module.i, content, '']];
+              }
+
+              if (!isEqualLocals(oldLocals, content.locals)) {
+                module.hot.invalidate();
+
+                return;
+              }
+
+              oldLocals = content.locals;
+
+              update(content);
+      }
+    )
+  }
+
+  module.hot.dispose(function() {
+    update();
+  });
+}
+
+module.exports = content.locals || {};
+
+/***/ }),
+
+/***/ "./src/images/rain.jpg":
+/*!*****************************!*\
+  !*** ./src/images/rain.jpg ***!
+  \*****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "static/media/rain.f1047197.jpg");
+
+/***/ }),
+
+/***/ "./src/images/rain_pc.jpg":
+/*!********************************!*\
+  !*** ./src/images/rain_pc.jpg ***!
+  \********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "static/media/rain_pc.8e0e8483.jpg");
+
+/***/ }),
+
+/***/ "./src/images/sun_3.jpg":
+/*!******************************!*\
+  !*** ./src/images/sun_3.jpg ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "static/media/sun_3.188906b1.jpg");
+
+/***/ }),
+
+/***/ "./src/images/sun_pc_2.jpg":
+/*!*********************************!*\
+  !*** ./src/images/sun_pc_2.jpg ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "static/media/sun_pc_2.0c3c9107.jpg");
+
+/***/ }),
+
+/***/ "./src/index.js":
+/*!**********************!*\
+  !*** ./src/index.js ***!
+  \**********************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _app_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./app.scss */ "./src/app.scss");
+/* harmony import */ var _app_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_app_scss__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _App__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./App */ "./src/App.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__);
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
+__webpack_require__.$Refresh$.setup(module.i);
+
+var _jsxFileName = "C:\\Users\\PC\\Desktop\\thingS\\A-Weathr-App\\a_weathr_app\\src\\index.js";
+
+
+
+
+
+react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])(react__WEBPACK_IMPORTED_MODULE_0___default.a.StrictMode, {
+  children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])(_App__WEBPACK_IMPORTED_MODULE_3__["default"], {}, void 0, false, {
+    fileName: _jsxFileName,
+    lineNumber: 8,
+    columnNumber: 5
+  }, undefined)
+}, void 0, false, {
+  fileName: _jsxFileName,
+  lineNumber: 7,
+  columnNumber: 3
+}, undefined), document.getElementById('root'));
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ }),
+
+/***/ 1:
+/*!**********************************************************************************************************************************************************************************************!*\
+  !*** multi (webpack)/hot/dev-server.js ./node_modules/@pmmmwh/react-refresh-webpack-plugin/client/ReactRefreshEntry.js ./node_modules/react-dev-utils/webpackHotDevClient.js ./src/index.js ***!
+  \**********************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! C:\Users\PC\Desktop\thingS\A-Weathr-App\a_weathr_app\node_modules\webpack\hot\dev-server.js */"./node_modules/webpack/hot/dev-server.js");
+__webpack_require__(/*! C:\Users\PC\Desktop\thingS\A-Weathr-App\a_weathr_app\node_modules\@pmmmwh\react-refresh-webpack-plugin\client\ReactRefreshEntry.js */"./node_modules/@pmmmwh/react-refresh-webpack-plugin/client/ReactRefreshEntry.js");
+__webpack_require__(/*! C:\Users\PC\Desktop\thingS\A-Weathr-App\a_weathr_app\node_modules\react-dev-utils\webpackHotDevClient.js */"./node_modules/react-dev-utils/webpackHotDevClient.js");
+module.exports = __webpack_require__(/*! C:\Users\PC\Desktop\thingS\A-Weathr-App\a_weathr_app\src\index.js */"./src/index.js");
+
+
+/***/ })
+
+},[[1,"runtime-main","vendors~main"]]]);
+//# sourceMappingURL=main.chunk.js.map
