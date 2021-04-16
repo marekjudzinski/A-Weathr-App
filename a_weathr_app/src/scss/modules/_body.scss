@@ -1,21 +1,45 @@
+@media (max-width:600px){
+    body{
+      font-family: 'montserratt', sans-serif;
+ 
+    .app{
+      background-image: url('../../images/rain.jpg');
+      background-size: cover;
+      background-position: center;
+      transition: 0.4s ease-out;
+    }
+  
+    .warm{
+      background-image: url('../../images/sun_3.jpg');
+    }
+  
+    main{
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.5),rgba(0,0,0,0.75));
+    padding: 25px;
+    }
+  }
+}
 
-body{
+@media (min-width:601px){
+  body{
     font-family: 'montserratt', sans-serif;
  
   .app{
-    background-image: url('../../images/rain.jpg');
+    background-image: url('../../images/rain_pc.jpg');
     background-size: cover;
-    background-position: bottom;
+    background-position: center;
     transition: 0.4s ease-out;
   }
   
   .warm{
-    background-image: url('../../images/sun.jpg');
+    background-image: url('../../images/sun_pc_2.jpg');
   }
   
   main{
   min-height: 100vh;
-  background-image: linear-gradient(to bottom, rgba(0,0,0,0.2),rgba(0,0,0,0.75));
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.5),rgba(0,0,0,0.75));
   padding: 25px;
   }
+}
 }

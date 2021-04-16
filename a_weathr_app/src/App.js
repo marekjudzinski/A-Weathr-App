@@ -43,8 +43,8 @@ function App() {
 
   //Struktura mojego dokumentu
   return (
-    //ClassName calej aplikacji jest zalezny od wysokosci temperatury.
-    //Od wysokosci temperatury zalezy tez background img
+    //ClassName calej aplikacji jest zalezny od wysokosci temperatury (weather.main.temp).
+    //Od wysokosci temperatury zalezy tez background img('app' 'warm')
     <div className={(typeof weather.main != "undefined") ? ((weather.main.temp > 16) ? 'app warm' : 'app') : 'app'}>
       <main>
         <div className="search-box">
